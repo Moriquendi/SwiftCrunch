@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9082A7E5196827C7001CFC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082A7E4196827C7001CFC4F /* AppDelegate.swift */; };
+		9082A7E7196827C7001CFC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082A7E6196827C7001CFC4F /* ViewController.swift */; };
+		9082A7EA196827C7001CFC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9082A7E8196827C7001CFC4F /* Main.storyboard */; };
+		9082A7EC196827C7001CFC4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9082A7EB196827C7001CFC4F /* Images.xcassets */; };
+		9082A7F8196827C7001CFC4F /* MMSVideoFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082A7F7196827C7001CFC4F /* MMSVideoFunTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9082A7F2196827C7001CFC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9082A7D7196827C7001CFC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9082A7DE196827C7001CFC4F;
+			remoteInfo = MMSVideoFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9082A7DF196827C7001CFC4F /* MMSVideoFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSVideoFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9082A7E3196827C7001CFC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9082A7E4196827C7001CFC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9082A7E6196827C7001CFC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9082A7E9196827C7001CFC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9082A7EB196827C7001CFC4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9082A7F1196827C7001CFC4F /* MMSVideoFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSVideoFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9082A7F6196827C7001CFC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9082A7F7196827C7001CFC4F /* MMSVideoFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMSVideoFunTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9082A7DC196827C7001CFC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082A7EE196827C7001CFC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9082A7D6196827C7001CFC4F = {
+			isa = PBXGroup;
+			children = (
+				9082A7E1196827C7001CFC4F /* MMSVideoFun */,
+				9082A7F4196827C7001CFC4F /* MMSVideoFunTests */,
+				9082A7E0196827C7001CFC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9082A7E0196827C7001CFC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9082A7DF196827C7001CFC4F /* MMSVideoFun.app */,
+				9082A7F1196827C7001CFC4F /* MMSVideoFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9082A7E1196827C7001CFC4F /* MMSVideoFun */ = {
+			isa = PBXGroup;
+			children = (
+				9082A7E4196827C7001CFC4F /* AppDelegate.swift */,
+				9082A7E6196827C7001CFC4F /* ViewController.swift */,
+				9082A7E8196827C7001CFC4F /* Main.storyboard */,
+				9082A7EB196827C7001CFC4F /* Images.xcassets */,
+				9082A7E2196827C7001CFC4F /* Supporting Files */,
+			);
+			path = MMSVideoFun;
+			sourceTree = "<group>";
+		};
+		9082A7E2196827C7001CFC4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9082A7E3196827C7001CFC4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9082A7F4196827C7001CFC4F /* MMSVideoFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				9082A7F7196827C7001CFC4F /* MMSVideoFunTests.swift */,
+				9082A7F5196827C7001CFC4F /* Supporting Files */,
+			);
+			path = MMSVideoFunTests;
+			sourceTree = "<group>";
+		};
+		9082A7F5196827C7001CFC4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9082A7F6196827C7001CFC4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9082A7DE196827C7001CFC4F /* MMSVideoFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9082A7FB196827C7001CFC4F /* Build configuration list for PBXNativeTarget "MMSVideoFun" */;
+			buildPhases = (
+				9082A7DB196827C7001CFC4F /* Sources */,
+				9082A7DC196827C7001CFC4F /* Frameworks */,
+				9082A7DD196827C7001CFC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMSVideoFun;
+			productName = MMSVideoFun;
+			productReference = 9082A7DF196827C7001CFC4F /* MMSVideoFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9082A7F0196827C7001CFC4F /* MMSVideoFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9082A7FE196827C7001CFC4F /* Build configuration list for PBXNativeTarget "MMSVideoFunTests" */;
+			buildPhases = (
+				9082A7ED196827C7001CFC4F /* Sources */,
+				9082A7EE196827C7001CFC4F /* Frameworks */,
+				9082A7EF196827C7001CFC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9082A7F3196827C7001CFC4F /* PBXTargetDependency */,
+			);
+			name = MMSVideoFunTests;
+			productName = MMSVideoFunTests;
+			productReference = 9082A7F1196827C7001CFC4F /* MMSVideoFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9082A7D7196827C7001CFC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = NSSpot;
+				TargetAttributes = {
+					9082A7DE196827C7001CFC4F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9082A7F0196827C7001CFC4F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9082A7DE196827C7001CFC4F;
+					};
+				};
+			};
+			buildConfigurationList = 9082A7DA196827C7001CFC4F /* Build configuration list for PBXProject "MMSVideoFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9082A7D6196827C7001CFC4F;
+			productRefGroup = 9082A7E0196827C7001CFC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9082A7DE196827C7001CFC4F /* MMSVideoFun */,
+				9082A7F0196827C7001CFC4F /* MMSVideoFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9082A7DD196827C7001CFC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082A7EA196827C7001CFC4F /* Main.storyboard in Resources */,
+				9082A7EC196827C7001CFC4F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082A7EF196827C7001CFC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9082A7DB196827C7001CFC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082A7E7196827C7001CFC4F /* ViewController.swift in Sources */,
+				9082A7E5196827C7001CFC4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082A7ED196827C7001CFC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082A7F8196827C7001CFC4F /* MMSVideoFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9082A7F3196827C7001CFC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9082A7DE196827C7001CFC4F /* MMSVideoFun */;
+			targetProxy = 9082A7F2196827C7001CFC4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9082A7E8196827C7001CFC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9082A7E9196827C7001CFC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9082A7F9196827C7001CFC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9082A7FA196827C7001CFC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9082A7FC196827C7001CFC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMSVideoFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9082A7FD196827C7001CFC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMSVideoFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9082A7FF196827C7001CFC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMSVideoFun.app/MMSVideoFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMSVideoFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9082A800196827C7001CFC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMSVideoFun.app/MMSVideoFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMSVideoFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9082A7DA196827C7001CFC4F /* Build configuration list for PBXProject "MMSVideoFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082A7F9196827C7001CFC4F /* Debug */,
+				9082A7FA196827C7001CFC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9082A7FB196827C7001CFC4F /* Build configuration list for PBXNativeTarget "MMSVideoFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082A7FC196827C7001CFC4F /* Debug */,
+				9082A7FD196827C7001CFC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9082A7FE196827C7001CFC4F /* Build configuration list for PBXNativeTarget "MMSVideoFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082A7FF196827C7001CFC4F /* Debug */,
+				9082A800196827C7001CFC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9082A7D7196827C7001CFC4F /* Project object */;
+}
