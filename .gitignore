@@ -1,3 +1,19 @@
+.DS_Store
+*.swp
+*~.nib
+
+build/*
+build
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.xcworkspace
+*.orig
+xcuserdata
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
