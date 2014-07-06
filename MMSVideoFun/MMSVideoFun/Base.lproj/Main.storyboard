@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
     </dependencies>
     <scenes>
@@ -24,6 +23,7 @@
                                     <constraint firstAttribute="height" constant="30" id="qN2-3I-w0j"/>
                                 </constraints>
                                 <state key="normal" title="Do the Magic!">
+                                    <color key="titleColor" red="0.6840820312" green="0.0" blue="0.22031071960000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -57,6 +57,7 @@
                                     <constraint firstAttribute="height" constant="30" id="qE1-e3-a47"/>
                                 </constraints>
                                 <state key="normal" title="Play result">
+                                    <color key="titleColor" red="0.6840820312" green="0.0" blue="0.22031071960000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -77,7 +78,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vG5-vF-tKi" firstAttribute="top" secondItem="tIV-ej-cCo" secondAttribute="bottom" constant="16" id="34w-pa-Aqh"/>
                             <constraint firstAttribute="centerX" secondItem="tIV-ej-cCo" secondAttribute="centerX" id="EKC-hB-mLb"/>
