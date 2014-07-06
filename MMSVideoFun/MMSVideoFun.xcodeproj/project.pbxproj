@@ -18,6 +18,7 @@
 		9082A7F8196827C7001CFC4F /* MMSVideoFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082A7F7196827C7001CFC4F /* MMSVideoFunTests.swift */; };
 		909553961968293F000C2ABC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909553951968293F000C2ABC /* AVFoundation.framework */; };
 		9095539C19682D6D000C2ABC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095539B19682D6D000C2ABC /* CoreMedia.framework */; };
+		90BD6528196956EA00122586 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90BD6527196956EA00122586 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9082A7F7196827C7001CFC4F /* MMSVideoFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMSVideoFunTests.swift; sourceTree = "<group>"; };
 		909553951968293F000C2ABC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9095539B19682D6D000C2ABC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		90BD6527196956EA00122586 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9062D35F19689136005D0456 /* dave.mov */,
 				9062D35B19688E1F005D0456 /* jamie1.mov */,
 				9062D35C19688E1F005D0456 /* jamie2.mov */,
+				90BD6527196956EA00122586 /* bg.jpg */,
 				9082A7E3196827C7001CFC4F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 				9082A7EA196827C7001CFC4F /* Main.storyboard in Resources */,
 				9062D35E19688E1F005D0456 /* jamie2.mov in Resources */,
 				9082A7EC196827C7001CFC4F /* Images.xcassets in Resources */,
+				90BD6528196956EA00122586 /* bg.jpg in Resources */,
 				9062D36019689136005D0456 /* dave.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
