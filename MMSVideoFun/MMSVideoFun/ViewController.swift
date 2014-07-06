@@ -133,6 +133,22 @@ import MediaPlayer
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class ViewController: UIViewController {
     
     let player = MPMoviePlayerViewController()
@@ -140,14 +156,62 @@ class ViewController: UIViewController {
     @IBAction func didTapButton(sender : UIButton) {
         var bundle = NSBundle.mainBundle()
         
-        let movie1 = AVURLAsset(URL: bundle.URLForResource("jamie1", withExtension: "mov"), options: nil);
-        let movie2 = AVURLAsset(URL: bundle.URLForResource("jamie2", withExtension: "mov"), options: nil);
-        let movie3 = AVURLAsset(URL: bundle.URLForResource("dave", withExtension: "mov"), options: nil);
+        let movie1 = AVURLAsset(URL: bundle.URLForResource("1", withExtension: "mov"), options: nil);
+        let movie2 = AVURLAsset(URL: bundle.URLForResource("2", withExtension: "mov"), options: nil);
+        let movie3 = AVURLAsset(URL: bundle.URLForResource("3", withExtension: "mov"), options: nil);
+
         
-        let mergedAsset:AVURLAsset = (movie1, 0..2) + (movie2, 0..2) + (movie3, 4..6)
+        
+
+        
+        
+        
+        
+////////////////////////////////////////////////////////////////////////////////////////
+//        let mergedAsset:AVURLAsset = movie1 + movie2 + movie3
+////////////////////////////////////////////////////////////////////////////////////////
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+////////////////////////////////////////////////////////////////////////////////////////
+        // Hey, this is crazy, so vote for me maybe?
+        let mergedAsset:AVURLAsset = (movie1, 0..2) + (movie2, 0..2) + (movie3, 2..4)
+////////////////////////////////////////////////////////////////////////////////////////
+        
+        
+        
+        
         self.player.moviePlayer.contentURL = mergedAsset.URL
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @IBAction func play(sender : UIButton) {
         self.presentViewController(self.player, animated: true, completion: nil)
     }

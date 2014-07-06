@@ -78,6 +78,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vG5-vF-tKi" firstAttribute="top" secondItem="tIV-ej-cCo" secondAttribute="bottom" constant="16" id="34w-pa-Aqh"/>
                             <constraint firstAttribute="centerX" secondItem="tIV-ej-cCo" secondAttribute="centerX" id="EKC-hB-mLb"/>
